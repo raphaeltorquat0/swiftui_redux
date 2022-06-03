@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF2CF3E284A618500685DF1 /* swiftui_reduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF3D284A618500685DF1 /* swiftui_reduxApp.swift */; };
-		3FF2CF40284A618500685DF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF3F284A618500685DF1 /* ContentView.swift */; };
-		3FF2CF42284A618700685DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF41284A618700685DF1 /* Assets.xcassets */; };
+		3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF3D284A618500685DF1 /* AppMain.swift */; };
 		3FF2CF45284A618700685DF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF44284A618700685DF1 /* Preview Assets.xcassets */; };
-		3FF2CF4F284A618800685DF1 /* swiftui_reduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF4E284A618800685DF1 /* swiftui_reduxTests.swift */; };
-		3FF2CF59284A618800685DF1 /* swiftui_reduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF58284A618800685DF1 /* swiftui_reduxUITests.swift */; };
-		3FF2CF5B284A618800685DF1 /* swiftui_reduxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF5A284A618800685DF1 /* swiftui_reduxUITestsLaunchTests.swift */; };
+		3FF2CF6B284A621800685DF1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF6A284A621800685DF1 /* Card.swift */; };
+		3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF6C284A625700685DF1 /* DifficultyLevel.swift */; };
+		3FF2CF6F284A626000685DF1 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF6E284A626000685DF1 /* GameState.swift */; };
+		3FF2CF71284A626700685DF1 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF70284A626700685DF1 /* Animal.swift */; };
+		3FF2CF73284A627200685DF1 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF72284A627200685DF1 /* Score.swift */; };
+		3FF2CF75284A627B00685DF1 /* ScorePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF74284A627B00685DF1 /* ScorePersistence.swift */; };
+		3FF2CF77284A628500685DF1 /* QuackPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF76284A628500685DF1 /* QuackPlayer.swift */; };
+		3FF2CF79284A628D00685DF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF78284A628D00685DF1 /* ContentView.swift */; };
+		3FF2CF7B284A629400685DF1 /* TitleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF7A284A629400685DF1 /* TitleScreenView.swift */; };
+		3FF2CF7D284A629A00685DF1 /* GameWinScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF7C284A629A00685DF1 /* GameWinScreenView.swift */; };
+		3FF2CF7F284A629F00685DF1 /* GameScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF7E284A629F00685DF1 /* GameScreenView.swift */; };
+		3FF2CF81284A62A600685DF1 /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF80284A62A600685DF1 /* CardGridView.swift */; };
+		3FF2CF83284A62A900685DF1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF82284A62A900685DF1 /* CardView.swift */; };
+		3FF2CF85284A62B000685DF1 /* CardBackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF84284A62B000685DF1 /* CardBackContentView.swift */; };
+		3FF2CF87284A62B600685DF1 /* CardFrontContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */; };
+		3FF2CF8A284A62C400685DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF88284A62C300685DF1 /* Assets.xcassets */; };
+		3FF2CF8B284A62C400685DF1 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF89284A62C400685DF1 /* duck.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +47,27 @@
 
 /* Begin PBXFileReference section */
 		3FF2CF3A284A618500685DF1 /* swiftui_redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF2CF3D284A618500685DF1 /* swiftui_reduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_reduxApp.swift; sourceTree = "<group>"; };
-		3FF2CF3F284A618500685DF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3FF2CF41284A618700685DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF2CF3D284A618500685DF1 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		3FF2CF44284A618700685DF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FF2CF4A284A618800685DF1 /* swiftui_reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftui_reduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF2CF4E284A618800685DF1 /* swiftui_reduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_reduxTests.swift; sourceTree = "<group>"; };
 		3FF2CF54284A618800685DF1 /* swiftui_reduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftui_reduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF2CF58284A618800685DF1 /* swiftui_reduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_reduxUITests.swift; sourceTree = "<group>"; };
-		3FF2CF5A284A618800685DF1 /* swiftui_reduxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_reduxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FF2CF6A284A621800685DF1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3FF2CF6C284A625700685DF1 /* DifficultyLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevel.swift; sourceTree = "<group>"; };
+		3FF2CF6E284A626000685DF1 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		3FF2CF70284A626700685DF1 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		3FF2CF72284A627200685DF1 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		3FF2CF74284A627B00685DF1 /* ScorePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePersistence.swift; sourceTree = "<group>"; };
+		3FF2CF76284A628500685DF1 /* QuackPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackPlayer.swift; sourceTree = "<group>"; };
+		3FF2CF78284A628D00685DF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FF2CF7A284A629400685DF1 /* TitleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenView.swift; sourceTree = "<group>"; };
+		3FF2CF7C284A629A00685DF1 /* GameWinScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinScreenView.swift; sourceTree = "<group>"; };
+		3FF2CF7E284A629F00685DF1 /* GameScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenView.swift; sourceTree = "<group>"; };
+		3FF2CF80284A62A600685DF1 /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
+		3FF2CF82284A62A900685DF1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3FF2CF84284A62B000685DF1 /* CardBackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackContentView.swift; sourceTree = "<group>"; };
+		3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontContentView.swift; sourceTree = "<group>"; };
+		3FF2CF88284A62C300685DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF2CF89284A62C400685DF1 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				3FF2CF3C284A618500685DF1 /* swiftui_redux */,
-				3FF2CF4D284A618800685DF1 /* swiftui_reduxTests */,
-				3FF2CF57284A618800685DF1 /* swiftui_reduxUITests */,
 				3FF2CF3B284A618500685DF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +116,10 @@
 		3FF2CF3C284A618500685DF1 /* swiftui_redux */ = {
 			isa = PBXGroup;
 			children = (
-				3FF2CF3D284A618500685DF1 /* swiftui_reduxApp.swift */,
-				3FF2CF3F284A618500685DF1 /* ContentView.swift */,
-				3FF2CF41284A618700685DF1 /* Assets.xcassets */,
+				3FF2CF69284A61AA00685DF1 /* Assets */,
+				3FF2CF68284A619F00685DF1 /* Views */,
+				3FF2CF67284A619B00685DF1 /* Models */,
+				3FF2CF3D284A618500685DF1 /* AppMain.swift */,
 				3FF2CF43284A618700685DF1 /* Preview Content */,
 			);
 			path = swiftui_redux;
@@ -110,21 +133,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3FF2CF4D284A618800685DF1 /* swiftui_reduxTests */ = {
+		3FF2CF67284A619B00685DF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3FF2CF4E284A618800685DF1 /* swiftui_reduxTests.swift */,
+				3FF2CF6A284A621800685DF1 /* Card.swift */,
+				3FF2CF6C284A625700685DF1 /* DifficultyLevel.swift */,
+				3FF2CF6E284A626000685DF1 /* GameState.swift */,
+				3FF2CF70284A626700685DF1 /* Animal.swift */,
+				3FF2CF72284A627200685DF1 /* Score.swift */,
+				3FF2CF74284A627B00685DF1 /* ScorePersistence.swift */,
+				3FF2CF76284A628500685DF1 /* QuackPlayer.swift */,
 			);
-			path = swiftui_reduxTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		3FF2CF57284A618800685DF1 /* swiftui_reduxUITests */ = {
+		3FF2CF68284A619F00685DF1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3FF2CF58284A618800685DF1 /* swiftui_reduxUITests.swift */,
-				3FF2CF5A284A618800685DF1 /* swiftui_reduxUITestsLaunchTests.swift */,
+				3FF2CF78284A628D00685DF1 /* ContentView.swift */,
+				3FF2CF7A284A629400685DF1 /* TitleScreenView.swift */,
+				3FF2CF7C284A629A00685DF1 /* GameWinScreenView.swift */,
+				3FF2CF7E284A629F00685DF1 /* GameScreenView.swift */,
+				3FF2CF80284A62A600685DF1 /* CardGridView.swift */,
+				3FF2CF82284A62A900685DF1 /* CardView.swift */,
+				3FF2CF84284A62B000685DF1 /* CardBackContentView.swift */,
+				3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */,
 			);
-			path = swiftui_reduxUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FF2CF69284A61AA00685DF1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2CF88284A62C300685DF1 /* Assets.xcassets */,
+				3FF2CF89284A62C400685DF1 /* duck.mp3 */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF2CF45284A618700685DF1 /* Preview Assets.xcassets in Resources */,
-				3FF2CF42284A618700685DF1 /* Assets.xcassets in Resources */,
+				3FF2CF8B284A62C400685DF1 /* duck.mp3 in Resources */,
+				3FF2CF8A284A62C400685DF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +302,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2CF40284A618500685DF1 /* ContentView.swift in Sources */,
-				3FF2CF3E284A618500685DF1 /* swiftui_reduxApp.swift in Sources */,
+				3FF2CF73284A627200685DF1 /* Score.swift in Sources */,
+				3FF2CF7D284A629A00685DF1 /* GameWinScreenView.swift in Sources */,
+				3FF2CF87284A62B600685DF1 /* CardFrontContentView.swift in Sources */,
+				3FF2CF7F284A629F00685DF1 /* GameScreenView.swift in Sources */,
+				3FF2CF83284A62A900685DF1 /* CardView.swift in Sources */,
+				3FF2CF85284A62B000685DF1 /* CardBackContentView.swift in Sources */,
+				3FF2CF7B284A629400685DF1 /* TitleScreenView.swift in Sources */,
+				3FF2CF77284A628500685DF1 /* QuackPlayer.swift in Sources */,
+				3FF2CF75284A627B00685DF1 /* ScorePersistence.swift in Sources */,
+				3FF2CF6B284A621800685DF1 /* Card.swift in Sources */,
+				3FF2CF6F284A626000685DF1 /* GameState.swift in Sources */,
+				3FF2CF79284A628D00685DF1 /* ContentView.swift in Sources */,
+				3FF2CF81284A62A600685DF1 /* CardGridView.swift in Sources */,
+				3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */,
+				3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */,
+				3FF2CF71284A626700685DF1 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2CF4F284A618800685DF1 /* swiftui_reduxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2CF59284A618800685DF1 /* swiftui_reduxUITests.swift in Sources */,
-				3FF2CF5B284A618800685DF1 /* swiftui_reduxUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
