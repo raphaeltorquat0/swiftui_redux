@@ -26,6 +26,8 @@
 		3FF2CF87284A62B600685DF1 /* CardFrontContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */; };
 		3FF2CF8A284A62C400685DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF88284A62C300685DF1 /* Assets.xcassets */; };
 		3FF2CF8B284A62C400685DF1 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF89284A62C400685DF1 /* duck.mp3 */; };
+		3FF2CF8E284A791A00685DF1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF8D284A791A00685DF1 /* State.swift */; };
+		3FF2CF90284A796000685DF1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF8F284A796000685DF1 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontContentView.swift; sourceTree = "<group>"; };
 		3FF2CF88284A62C300685DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF2CF89284A62C400685DF1 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
+		3FF2CF8D284A791A00685DF1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		3FF2CF8F284A796000685DF1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		3FF2CF3C284A618500685DF1 /* swiftui_redux */ = {
 			isa = PBXGroup;
 			children = (
+				3FF2CF8C284A790F00685DF1 /* State */,
 				3FF2CF69284A61AA00685DF1 /* Assets */,
 				3FF2CF68284A619F00685DF1 /* Views */,
 				3FF2CF67284A619B00685DF1 /* Models */,
@@ -169,6 +174,15 @@
 				3FF2CF89284A62C400685DF1 /* duck.mp3 */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		3FF2CF8C284A790F00685DF1 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2CF8D284A791A00685DF1 /* State.swift */,
+				3FF2CF8F284A796000685DF1 /* Store.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +319,7 @@
 				3FF2CF73284A627200685DF1 /* Score.swift in Sources */,
 				3FF2CF7D284A629A00685DF1 /* GameWinScreenView.swift in Sources */,
 				3FF2CF87284A62B600685DF1 /* CardFrontContentView.swift in Sources */,
+				3FF2CF90284A796000685DF1 /* Store.swift in Sources */,
 				3FF2CF7F284A629F00685DF1 /* GameScreenView.swift in Sources */,
 				3FF2CF83284A62A900685DF1 /* CardView.swift in Sources */,
 				3FF2CF85284A62B000685DF1 /* CardBackContentView.swift in Sources */,
@@ -315,6 +330,7 @@
 				3FF2CF6F284A626000685DF1 /* GameState.swift in Sources */,
 				3FF2CF79284A628D00685DF1 /* ContentView.swift in Sources */,
 				3FF2CF81284A62A600685DF1 /* CardGridView.swift in Sources */,
+				3FF2CF8E284A791A00685DF1 /* State.swift in Sources */,
 				3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */,
 				3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */,
 				3FF2CF71284A626700685DF1 /* Animal.swift in Sources */,
