@@ -28,6 +28,8 @@
 		3FF2CF8B284A62C400685DF1 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF89284A62C400685DF1 /* duck.mp3 */; };
 		3FF2CF8E284A791A00685DF1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF8D284A791A00685DF1 /* State.swift */; };
 		3FF2CF90284A796000685DF1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF8F284A796000685DF1 /* Store.swift */; };
+		3FF2CF92284A7BC800685DF1 /* ThreeDucksAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF91284A7BC800685DF1 /* ThreeDucksAction.swift */; };
+		3FF2CF94284A7C2B00685DF1 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF93284A7C2B00685DF1 /* Reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		3FF2CF89284A62C400685DF1 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		3FF2CF8D284A791A00685DF1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		3FF2CF8F284A796000685DF1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3FF2CF91284A7BC800685DF1 /* ThreeDucksAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDucksAction.swift; sourceTree = "<group>"; };
+		3FF2CF93284A7C2B00685DF1 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 			children = (
 				3FF2CF8D284A791A00685DF1 /* State.swift */,
 				3FF2CF8F284A796000685DF1 /* Store.swift */,
+				3FF2CF91284A7BC800685DF1 /* ThreeDucksAction.swift */,
+				3FF2CF93284A7C2B00685DF1 /* Reducer.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				3FF2CF7F284A629F00685DF1 /* GameScreenView.swift in Sources */,
 				3FF2CF83284A62A900685DF1 /* CardView.swift in Sources */,
 				3FF2CF85284A62B000685DF1 /* CardBackContentView.swift in Sources */,
+				3FF2CF92284A7BC800685DF1 /* ThreeDucksAction.swift in Sources */,
 				3FF2CF7B284A629400685DF1 /* TitleScreenView.swift in Sources */,
 				3FF2CF77284A628500685DF1 /* QuackPlayer.swift in Sources */,
 				3FF2CF75284A627B00685DF1 /* ScorePersistence.swift in Sources */,
@@ -333,6 +340,7 @@
 				3FF2CF8E284A791A00685DF1 /* State.swift in Sources */,
 				3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */,
 				3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */,
+				3FF2CF94284A7C2B00685DF1 /* Reducer.swift in Sources */,
 				3FF2CF71284A626700685DF1 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
