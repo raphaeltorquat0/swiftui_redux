@@ -7,15 +7,17 @@ struct CardGridView: View {
         GridItem(.fixed(100)),
         GridItem(.fixed(100))
     ]
+    @EnvironmentObject var store: ThreeDucksStore
     
     var body: some View {
         LazyVGrid(columns: columns, alignment: .center,
                   spacing: 4, pinnedViews: []) {
             ForEach(cards) { card in
-                CardView(card: card)
-                    .frame(width: nil, height: 80)
+                onTapGesture {
+                    store.dispatch(.flipCard(card.id))
+                }
             }
-        }
+        }.animation(.default)
     }
 }
 

@@ -23,7 +23,7 @@ struct GameScreenView: View {
         .padding()
         
         Spacer()
-        Text("Moves: 0")
+            Text("Moves: \(store.state.moves)")
             .font(.subheadline)
             .foregroundColor(.purple)
             .padding()

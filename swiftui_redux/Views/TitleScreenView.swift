@@ -37,6 +37,14 @@ struct TitleScreenView: View {
 
 struct TitleScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleScreenView()
+        let previewStore: ThreeDucksStore = {
+            let store = ThreeDucksStore.preview
+            store.dispatch(
+                .setPreviousBestScore(Score(difficulty: .normal, moves:6))
+            )
+            return store
+        }()
+        
+        TitleScreenView().environmentObject(previewsStore)
     }
 }
