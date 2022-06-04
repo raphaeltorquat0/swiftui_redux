@@ -9,18 +9,17 @@ struct GameScreenView: View {
                 withAnimation {
                     store.dispatch(.endGame)
                 }
-            }
-        label: {
+            } label: {
             HStack {
                 Image(systemName: "hand.point.left.fill")
                 Text("Give Up")
             }
-        }.foregroundColor(.purple)
-        
+            .foregroundColor(.purple)
+        }
         .padding()
         Spacer()
-            CardGridView(cards: store.state.cards)
-        .padding()
+        CardGridView(cards: store.state.cards)
+        .padding(8)
         
         Spacer()
             Text("Moves: \(store.state.moves)")
@@ -34,6 +33,25 @@ struct GameScreenView: View {
 
 struct GameScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        GameScreenView()
+        let previewStore: ThreeDucksStore = {
+            let store = ThreeDucksStore.preview
+            let cards = [
+                Card(animal: .bat),
+                Card(animal: .bat),
+                Card(animal: .ducks),
+                Card(animal: .ducks),
+                Card(animal: .bear),
+                Card(animal: .bear),
+                Card(animal: .pelican),
+                Card(animal: .pelican),
+                Card(animal: .horse),
+                Card(animal: .horse),
+                Card(animal: .elephant),
+                Card(animal: .elephant)
+            ].shuffled()
+            store.dispatch(.setupGame(cards))
+            return store
+        }()
+        GameScreenView().environmentObject(previewStore)
     }
 }

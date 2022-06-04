@@ -7,8 +7,8 @@ let threeDucksReducer: Reducer<ThreeDucksState, ThreeDucksAction> = {state, acti
     switch action {
     case .startGame:
         mutatingState.gameState = .started
-        mutatingState.selectedCards = []
         mutatingState.moves = 0
+        mutatingState.selectedCards = []
     case .endGame:
         mutatingState.gameState = .title
     
@@ -33,11 +33,13 @@ let threeDucksReducer: Reducer<ThreeDucksState, ThreeDucksAction> = {state, acti
             guard selectedIDs.contains(card.id) else { return card }
             return Card(id: card.id, animal: card.animal, isFlipped: false)
         }
+        mutatingState.selectedCards = []
+        mutatingState.cards = cards
     case .launch:
         mutatingState.gameState = .title
     case .setDifficulty(let difficulty):
         mutatingState.gameDificculty = difficulty
-    case .setupgame(let cards):
+    case .setupGame(let cards):
         mutatingState.cards = cards
     case .setPreviousBestScore(let score):
         mutatingState.previousBestScore = score

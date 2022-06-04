@@ -7,7 +7,7 @@ enum ThreeDucksAction {
     case winGame
     
     case setDifficulty(DifficultyLevel)
-    case setupgame([Card])
+    case setupGame([Card])
     case setPreviousBestScore(Score)
     
     case flipCard(UUID)

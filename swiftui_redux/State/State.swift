@@ -1,7 +1,6 @@
 import Foundation
 
 struct ThreeDucksState {
-    
     var gameState: GameState = .title
     var gameDificculty: DifficultyLevel = .normal
     var cards: [Card] = []

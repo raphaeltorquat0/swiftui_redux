@@ -9,7 +9,7 @@ struct GameWinScreenView: View {
                 .font(.title)
                 .foregroundColor(.white)
             
-            Image("duckes")
+            Image("ducks")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
@@ -19,12 +19,12 @@ struct GameWinScreenView: View {
             .font(.headline)
             .foregroundColor(.purple)
             .padding()
-            .background(.white)
+            .background(Color.white)
             .cornerRadius(40)
             
             Spacer()
         }
-        .background(.purple)
+        .background(Color.purple)
     }
 }
 

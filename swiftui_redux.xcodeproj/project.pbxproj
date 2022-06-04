@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F04BC35284BF69E00D67056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F04BC34284BF69E00D67056 /* Assets.xcassets */; };
+		3F07D84E284ABA100060D00F /* BestScoreMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07D84D284ABA100060D00F /* BestScoreMiddleware.swift */; };
+		3F07D850284ABBB90060D00F /* AudioMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07D84F284ABBB90060D00F /* AudioMiddleware.swift */; };
 		3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF3D284A618500685DF1 /* AppMain.swift */; };
 		3FF2CF6B284A621800685DF1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF6A284A621800685DF1 /* Card.swift */; };
 		3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF6C284A625700685DF1 /* DifficultyLevel.swift */; };
@@ -30,11 +33,13 @@
 		3FF2CF94284A7C2B00685DF1 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF93284A7C2B00685DF1 /* Reducer.swift */; };
 		3FF2CF98284A8BBA00685DF1 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF97284A8BBA00685DF1 /* Middleware.swift */; };
 		3FF2CF9A284A8C1200685DF1 /* GameLogicMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2CF99284A8C1200685DF1 /* GameLogicMiddleware.swift */; };
-		3FF2CF9B284AA39500685DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF88284A62C300685DF1 /* Assets.xcassets */; };
-		3FF2CF9C284AA39D00685DF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2CF44284A618700685DF1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F04BC34284BF69E00D67056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F07D84D284ABA100060D00F /* BestScoreMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScoreMiddleware.swift; sourceTree = "<group>"; };
+		3F07D84F284ABBB90060D00F /* AudioMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMiddleware.swift; sourceTree = "<group>"; };
+		3FDB9A2E284BFF2800A29003 /* swiftui-redux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swiftui-redux-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3FF2CF3A284A618500685DF1 /* swiftui_redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2CF3D284A618500685DF1 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		3FF2CF44284A618700685DF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +58,6 @@
 		3FF2CF82284A62A900685DF1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3FF2CF84284A62B000685DF1 /* CardBackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackContentView.swift; sourceTree = "<group>"; };
 		3FF2CF86284A62B600685DF1 /* CardFrontContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontContentView.swift; sourceTree = "<group>"; };
-		3FF2CF88284A62C300685DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF2CF89284A62C400685DF1 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		3FF2CF8D284A791A00685DF1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		3FF2CF8F284A796000685DF1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		3FF2CF3C284A618500685DF1 /* swiftui_redux */ = {
 			isa = PBXGroup;
 			children = (
+				3FDB9A2E284BFF2800A29003 /* swiftui-redux-Info.plist */,
 				3FF2CF8C284A790F00685DF1 /* State */,
 				3FF2CF69284A61AA00685DF1 /* Assets */,
 				3FF2CF68284A619F00685DF1 /* Views */,
@@ -143,7 +148,7 @@
 		3FF2CF69284A61AA00685DF1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3FF2CF88284A62C300685DF1 /* Assets.xcassets */,
+				3F04BC34284BF69E00D67056 /* Assets.xcassets */,
 				3FF2CF89284A62C400685DF1 /* duck.mp3 */,
 			);
 			path = Assets;
@@ -158,6 +163,8 @@
 				3FF2CF93284A7C2B00685DF1 /* Reducer.swift */,
 				3FF2CF97284A8BBA00685DF1 /* Middleware.swift */,
 				3FF2CF99284A8C1200685DF1 /* GameLogicMiddleware.swift */,
+				3F07D84D284ABA100060D00F /* BestScoreMiddleware.swift */,
+				3F07D84F284ABBB90060D00F /* AudioMiddleware.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -220,8 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2CF9C284AA39D00685DF1 /* Preview Assets.xcassets in Resources */,
-				3FF2CF9B284AA39500685DF1 /* Assets.xcassets in Resources */,
+				3F04BC35284BF69E00D67056 /* Assets.xcassets in Resources */,
 				3FF2CF8B284A62C400685DF1 /* duck.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +247,7 @@
 				3FF2CF83284A62A900685DF1 /* CardView.swift in Sources */,
 				3FF2CF98284A8BBA00685DF1 /* Middleware.swift in Sources */,
 				3FF2CF85284A62B000685DF1 /* CardBackContentView.swift in Sources */,
+				3F07D850284ABBB90060D00F /* AudioMiddleware.swift in Sources */,
 				3FF2CF9A284A8C1200685DF1 /* GameLogicMiddleware.swift in Sources */,
 				3FF2CF92284A7BC800685DF1 /* Action.swift in Sources */,
 				3FF2CF7B284A629400685DF1 /* TitleScreenView.swift in Sources */,
@@ -250,6 +257,7 @@
 				3FF2CF6F284A626000685DF1 /* GameState.swift in Sources */,
 				3FF2CF79284A628D00685DF1 /* ContentView.swift in Sources */,
 				3FF2CF81284A62A600685DF1 /* CardGridView.swift in Sources */,
+				3F07D84E284ABA100060D00F /* BestScoreMiddleware.swift in Sources */,
 				3FF2CF8E284A791A00685DF1 /* State.swift in Sources */,
 				3FF2CF3E284A618500685DF1 /* AppMain.swift in Sources */,
 				3FF2CF6D284A625700685DF1 /* DifficultyLevel.swift in Sources */,
@@ -311,7 +319,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,7 +374,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -380,15 +390,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui_redux/Preview Content\"";
 				DEVELOPMENT_TEAM = EUPL5H953B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "swiftui-redux-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,15 +421,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui_redux/Preview Content\"";
 				DEVELOPMENT_TEAM = EUPL5H953B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "swiftui-redux-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
